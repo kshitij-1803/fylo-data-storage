@@ -21,7 +21,7 @@ body {
     justify-content: center;
     gap: 20px;
     height: 100vh;
-    background: url(./images/bg-desktop.png) no-repeat bottom/100%;
+    background: url('../images/bg-desktop.png') no-repeat bottom/100%;
 }
 
 .logo-container {

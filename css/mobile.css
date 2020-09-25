@@ -1,0 +1,30 @@
+.container {
+    flex-direction: column;
+    background: url('../images/bg-mobile.png') no-repeat center center/cover;
+    overflow: hidden;
+}
+
+.usage-container {
+    background-color: var(--dark-blue);
+    width: 300px;
+    padding: 35px;
+}
+
+.usage-popup{
+    top: 120px;
+    right: 65px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.usage-popup::after {
+   display: none;
+}
+
+.usage-container .data-left-indicator .filled::after {
+    left: 160px;
+}
+
+.usage-container .slider-end {
+    left: 140px;
+}
